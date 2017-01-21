@@ -1,0 +1,39 @@
+$background-color: #00BCD4;
+$text-color: #FFF;
+
+.card {
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.card,
+.card-header,
+.card-footer {
+    border: none;
+    border-radius: 0;
+    background: $background-color;
+    color: $text-color;
+}
+
+.card-header,
+.card-block {
+    border-bottom: .1rem solid darken($background-color, 10%);
+}
+
+.card-header,
+.card-footer {
+    padding: 1rem .5rem;
+}
+
+.card-block {
+    padding: 3rem;
+}
+
+.card-block,
+.card-footer {
+    text-align: center;
+}
+
+p {
+    margin: .2rem;
+    text-transform: uppercase;
+}
